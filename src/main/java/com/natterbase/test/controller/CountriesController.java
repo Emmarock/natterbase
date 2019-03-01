@@ -20,7 +20,7 @@ public class CountriesController  {
 
     @Autowired
     CountriesRepository countriesRepository;
-    Logger logger = LoggerFactory.getLogger(CountriesController.class);
+    private Logger logger = LoggerFactory.getLogger(CountriesController.class);
 
     /**
      *
